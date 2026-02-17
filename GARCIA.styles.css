@@ -43,7 +43,12 @@ fieldset{
     line-height: 1.35;
 }
 
-
+/*add supports query*/
+@supports (display: grid){
+    main{
+        display: grid;
+    }
+}
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
