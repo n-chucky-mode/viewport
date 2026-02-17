@@ -52,7 +52,11 @@ fieldset{
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
-
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: var(--dark-gray); /*body bg to gray when user prefers dark mode*/
+    }
+}
 
 /* ----- HEADINGS ----- */
 h1, h2, h3, h4{
