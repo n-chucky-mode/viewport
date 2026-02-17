@@ -1,8 +1,24 @@
 /* YOUR NAME GOES HERE */
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
+html, body{
+    margin: 0; /*removes default browser spacing*/
+    padding: 0;/*same*/
+}
+img{
+    max-width: 100%;/*makes images responsive*/
+    height: auto; /*prevents image stretching*/
 
-
+}
+ul, ol{
+    margin: 0;/*removes default list spacing*/
+    padding: 0;
+}
+fieldset{
+    border: 0;/*removes default list spacing*/
+    margin: 0;/*removes default spacing*/
+    padding: 0;
+}
 
 /* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
 /* ---------- VARIABLES ---------- */
